@@ -4,7 +4,7 @@ const data = ["relativeListItem1", "relativeListItem2", "relativeListItem3", "re
 const App = () => {
   return (
     <div id="main">
-      <ol id="list">
+      <ol id="relativeList">
         {data.map((item, index) => (
           <li key={item} id={item}>{item}</li>
         ))}
